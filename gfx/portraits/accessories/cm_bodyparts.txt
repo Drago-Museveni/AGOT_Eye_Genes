@@ -1,0 +1,37 @@
+﻿#####################################
+#									#
+# 			Female					#
+#									#
+#####################################
+
+#female_eyes_sauron = {
+#	entity = { entity = "female_eyes_sauron_entity" 	shared_pose_entity = head }		
+#}
+
+female_eyes_vizeryon = {
+	entity = { entity = "female_eyes_vizeryon_entity" 	shared_pose_entity = head }		
+}
+
+female_eyes_vizeryon_2 = {
+	entity = { entity = "female_eyes_vizeryon_2_entity" 	shared_pose_entity = head }		
+}
+
+
+#####################################
+#									#
+# 			Male					#
+#									#
+#####################################
+
+#male_eyes_sauron = {
+#	entity = { entity = "male_eyes_sauron_entity" 	shared_pose_entity = head }		
+#}
+
+male_eyes_vizeryon = {
+	entity = { entity = "male_eyes_vizeryon_entity" 	shared_pose_entity = head }		
+}
+
+male_eyes_vizeryon_2 = {
+	entity = { entity = "male_eyes_vizeryon_2_entity" 	shared_pose_entity = head }		
+}
+

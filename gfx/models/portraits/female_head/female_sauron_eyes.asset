@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "female_eyes_sauron_mesh"
+	file = "female_eyes.mesh"
+	
+	meshsettings = {
+		name = "female_eyesShape"
+		index = 0
+		texture_diffuse = "sauron_eyes_diffuse.dds"
+		texture_normal = "sauron_eyes_normal.dds"
+		texture_specular = "sauron_eyes_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_eyes_sauron_entity"
+	pdxmesh = "female_eyes_sauron_mesh"
+}
