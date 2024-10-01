@@ -1,0 +1,57 @@
+﻿
+cm_special = {
+
+    usage = game
+
+#	sauron = {
+#		dna_modifiers = {
+#			accessory = {
+#				mode = modify				
+#				gene = eye_accessory
+#				template = sauron_eyes
+#				value = 1.0
+#			}
+#		}
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 500
+#				AND = {
+#					has_trait = 
+#				}
+#			}
+#		}
+#	}
+	magical_blood_eyes_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = modify				
+				gene = eye_accessory
+				template = magical_eyes
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1500
+				has_trait = zz_magister
+			}
+		}	
+	}
+	magical_blood_eyes_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = modify				
+				gene = eye_accessory
+				template = magical_eyes_2
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1500
+				has_trait = born_under_a_red_comet
+			}
+		}	
+	}
+}
