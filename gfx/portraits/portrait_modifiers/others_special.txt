@@ -1,0 +1,38 @@
+﻿
+others_special = {
+
+    usage = game
+
+	others_eyes_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = modify				
+				gene = eye_accessory
+				template = others_eyes
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1500
+				has_trait = nightking
+			}
+		}	
+	}
+	others_eyes_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = modify				
+				gene = eye_accessory
+				template = others_eyes
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1500
+				has_trait = other_trait
+			}
+		}	
+	}
+}
